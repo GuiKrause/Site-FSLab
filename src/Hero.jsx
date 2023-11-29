@@ -1,7 +1,9 @@
 const Hero = () => {
     return(
-        <div className="hero-img">
-            <img src="" alt="FSLab-Icon" />
+        <div className="hero">
+            <div className="hero-shadow">
+            </div>
+            <img className="logo-fslab" src="logo.svg" alt="FSLab-Icon" />
         </div>
     )
 }

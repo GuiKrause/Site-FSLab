@@ -10,9 +10,16 @@ body{
   background-color: black;
   font-size: 16px;
 }
-.content{
-  max-width: 100vw;
+.container{
+  width: 100%;
   margin: auto;
+}
+.content{
+  height: auto;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 50px 20px;
 }
 header{
   background-color:#373736;
@@ -54,17 +61,13 @@ header{
 .logo-fslab{
   z-index: 2;
 }
+
+/* PROJETOS */
+
 .projects{
-  height: 1000px;
-  width: 100%;
-  background-color: #EEECEC;
-  padding: 47px 38px 100px;
-}
-.projects-content{
   height: 100%;
   width: 100%;
-  max-width: 1440px;
-  margin: auto;
+  background-color: #EEECEC;
 }
 .projects-title{
   font-size: 1.2rem;
@@ -75,8 +78,8 @@ header{
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(4, minmax(352px, 1fr));
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, minmax(250px, 1fr));
   gap: 10px;
   padding-top: 22px;
 }
@@ -106,17 +109,14 @@ header{
   background-color: orange;
   grid-column: 4/5;
 }
+
+/* QUEM SOMOS */
+
 .quem-somos{
   width: 100%;
   height: auto;
   background-color: #F3F3F3;
-  padding: 47px 38px 100px;
-}
-.quem-somos-content{
-  height: 100%;
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
+  font-size: 1rem;
 }
 .quem-somos-layout{
   width: 100%;
@@ -125,6 +125,7 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .quem-somos-title{
   font-size: 1.2rem;
@@ -133,27 +134,23 @@ header{
 }
 .quem-somos-paragraphs{
   display: inline-block;
-  width: 665px;
+  width: 50%;
 }
 .quem-somos-paragraphs > p{
   margin-bottom: 15px;
 }
 .quem-somos-video{
-  width: 591px;
-  height: 346px;
+  width: 50%;
+  height: 24rem;
   background-color: #D9D9D9;
 }
+
+/* FAQ */
+
 .faq{
   width: 100%;
   height: auto;
   background-color: #EEECEC;
-  padding: 47px 38px 100px;
-}
-.faq-content{
-  height: 100%;
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
 }
 .faq-title{
   font-size: 1.2rem;
@@ -175,17 +172,13 @@ header{
   padding: 0 10px;
   margin-bottom: 10px;
 }
+
+/* EQUIPE */
+
 .equipe{
   height: auto;
   width: 100%;
   background-color: #F3F3F3;
-  padding: 47px 38px 100px;
-}
-.equipe-content{
-  height: 100%;
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
 }
 .equipe-title{
   font-size: 1.2rem;
@@ -194,8 +187,10 @@ header{
 }
 .dev-professors{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
   padding-top: 30px;
+  flex-wrap: wrap;
 }
 .dev-layout{
   width: fit-content;
@@ -225,6 +220,7 @@ header{
 .alumns-group{
   padding-top: 50px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   max-width: 1250px;
   margin: auto;
@@ -236,11 +232,13 @@ header{
   background-color: gray;
   border-radius: 50%;
 }
+
+/* FALE CONOSCO */
+
 .fale-conosco{
   height: 410px;
   width: 100%;
   background-color: #EEECEC;
-  padding: 47px 38px 100px;
 }
 .fale-conosco-title{
   font-size: 1.2rem;
@@ -249,16 +247,22 @@ header{
 }
 footer{
   background-color: #575756;
+  padding: 47px 0;
+}
+footer > div{
+  margin: auto;
+  max-width: 710px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 70px;
 }
 
-@media (max-width: 1516px) {
+@media (max-width: 1440px) {
+  
   .projects-layout{
-    grid-template-columns: repeat(3, minmax(352px, 470px));
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(6, 450px);
+    justify-content: center;
   }
   .project-link1{
     background-color: red;
@@ -270,59 +274,128 @@ footer{
   }
   .project-link3{
     background-color: green;
-    grid-column: 3/4;
-    grid-row: 1/2;
+    grid-column: 1/3;
+    grid-row: 2/4;
   }
   .project-link4{
     background-color: yellow;
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 4/5;
   }
   .project-link5{
     background-color: purple;
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 4/5;
   }
   .project-link6{
     background-color: orange;
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-column: 1/3;
+    grid-row: 5/7;
   }
-}
-@media (max-width: 1150px) {
-  .projects-layout{
-    grid-template-columns: repeat(2, minmax(352px, 600px));
-    grid-template-rows: 1fr 1fr 1fr;
+  .quem-somos-layout{
+    display: block;
   }
-  .project-link1{
-    background-color: red;
-    grid-column: 1/2;
+  .quem-somos-paragraphs{
+    width: 100%;
+    text-align: justify;
   }
-  .project-link2{
-    background-color: blue;
-    grid-column: 2/3;
-  }
-  .project-link3{
-    background-color: green;
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  .project-link4{
-    background-color: yellow;
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .project-link5{
-    background-color: purple;
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-  .project-link6{
-    background-color: orange;
-    grid-column: 2/3;
-    grid-row: 3/4;
+  .quem-somos-video{
+    width: 100%;
   }
   .dev-professors{
-    display: none;
+    justify-content: center;
+    gap: 10px;
+  }
+  .alumns-group{
+    justify-content: center;
+  }
+  .dev-layout{
+    flex-direction: column;
+    align-items: center;
+  }
+  .dev-description{
+    text-align: center;
+  }
+}
+@media (max-width: 1210px) {
+  .projects-layout{
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-rows: repeat(6, minmax(200px, 300px));
+  }
+}
+@media (max-width: 710px) {
+  .projects-layout{
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(6, 250px);
+  }
+  .project-link1{
+    background-color: red;
+    grid-column: 1/2;
+  }
+  .project-link2{
+    background-color: blue;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .project-link3{
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .project-link4{
+    background-color: yellow;
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .project-link5{
+    background-color: purple;
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .project-link6{
+    background-color: orange;
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .dev-professors{
+    flex-wrap: wrap;
+  }
+  .quem-somos-paragraphs{
+    text-align: justify;
+  }
+  footer > div{
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .dev-layout{
+    flex-direction: column;
+    align-items: center;
+  }
+  .dev-description{
+    text-align: center;
+  }
+}
+@media (max-width: 372px) {
+  .dev-layout{
+    flex-direction: column;
+    align-items: center;
+  }
+  .dev-description{
+    text-align: center;
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .nav-bar-link{
+    margin-right: 0px;
+  }
+  nav > a.nav-bar-link{
+    text-align: center;
+  }
+  .quem-somos-video{
+    max-width: 100%;
+    max-height: 12rem;
   }
 }

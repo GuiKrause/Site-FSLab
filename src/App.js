@@ -9,7 +9,7 @@ import FaleConosco from './FaleConosco';
 function App() {
   return (
     <div className="App">
-      <div className='content'>
+      <div className='container'>
       <header>
           <nav className="nav-bar">
               <a className="nav-bar-link" href="">Início</a>
@@ -26,7 +26,10 @@ function App() {
       <Equipe></Equipe>
       <FaleConosco></FaleConosco>
       <footer>
-        <img src='ifroFSLab.svg'></img>
+        <div>
+          <img src='ifro.svg'></img>
+          <img src='fslab.svg'></img>
+        </div>
       </footer>
       </div>
     </div>

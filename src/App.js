@@ -1,4 +1,3 @@
-import Header from './Header';
 import Hero from './Hero';
 import Projects from './Projects';
 import QuemSomos from './QuemSomos';

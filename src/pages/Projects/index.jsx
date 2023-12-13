@@ -1,7 +1,7 @@
 const Projects = () => {
     return(
-        <div className="projects">
-            <div className="content">
+        <div className="projects" id="projects">
+            <div className="container">
                 <h1 className="projects-title">Projetos desenvolvidos</h1>
                 <div className="projects-layout">
                     <div className="project-link1"></div>

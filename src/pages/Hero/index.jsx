@@ -1,9 +1,9 @@
 const Hero = () => {
     return(
-        <div className="hero">
+        <div className="hero" id="hero">
             <div className="hero-shadow">
             </div>
-            <img className="logo-fslab" src="logo.svg" alt="FSLab-Icon" />
+            <img className="logo-fslab" src="src/assets/images/logo.svg" alt="FSLab-Icon" />
         </div>
     )
 }

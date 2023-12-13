@@ -1,7 +1,7 @@
 const Equipe = () => {
     return (
-        <div className="equipe">
-            <div className="content">
+        <div className="team" id="team">
+            <div className="container">
                 <h1 className="equipe-title">Equipe</h1>
                 <div className="dev-professors">
                     <div className="dev-layout">

@@ -5,43 +5,19 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-}
-body{
-  background-color: black;
-  font-size: 16px;
+  text-decoration: none;
 }
 .container{
-  width: 100%;
-  margin: auto;
-}
-.content{
+  max-width: 1440px;
   height: auto;
   width: 100%;
-  max-width: 1440px;
   margin: auto;
   padding: 50px 20px;
-}
-header{
-  background-color:#373736;
-  border-top: 8px solid #3C3C3B;
-}
-.nav-bar{
-  margin-left: 20px;
-  padding: 26px;
-  font-size: 0.8rem;
-  margin: auto;
-  width: 100%;
-  max-width: 1440px;
-}
-.nav-bar-link{
-  text-decoration: none;
-  color: #F1F1F1;
-  margin-right: 16px;
 }
 .hero{
   height: 512px;
   width: 100%;
-  background-image: url(/src/images/pexels-christina-morillo-1181244.jpg);
+  background-image: url(/src/assets/images/pexels-christina-morillo-1181244.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +151,7 @@ header{
 
 /* EQUIPE */
 
-.equipe{
+.team{
   height: auto;
   width: 100%;
   background-color: #F3F3F3;
@@ -235,7 +211,7 @@ header{
 
 /* FALE CONOSCO */
 
-.fale-conosco{
+.contact{
   height: 410px;
   width: 100%;
   background-color: #EEECEC;
@@ -278,7 +254,7 @@ footer > div{
   .project-link4{
     background-color: yellow;
     grid-column: 1/3;
-    grid-row: 3/6;
+    grid-row: 3/5;
   }
   .project-link5{
     background-color: purple;
@@ -288,7 +264,7 @@ footer > div{
   .project-link6{
     background-color: orange;
     grid-column: 3/4;
-    grid-row: 4/6;
+    grid-row: 4/5;
   }
 }
 @media (max-width: 810px) {

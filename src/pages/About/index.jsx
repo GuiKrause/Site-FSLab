@@ -1,7 +1,7 @@
 const QuemSomos = () => {
     return (
         <div className="quem-somos">
-            <div className="content">
+            <div className="container">
                 <h1 className="quem-somos-title">Quem somos</h1>
                 <div className="quem-somos-layout">
                     <div className="quem-somos-paragraphs">

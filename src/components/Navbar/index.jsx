@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return(
         <nav className="navbar">
-            <div className='nav-container menu'>
+            <div className='nav-container'>
                 <Link to='#projects' smooth>Projects</Link>
                 <Link to='#about' smooth>About</Link>
                 <Link to='#faq' smooth>FAQ</Link>

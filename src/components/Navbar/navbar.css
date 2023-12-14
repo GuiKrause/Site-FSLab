@@ -12,7 +12,6 @@
 }
 .nav-container{
     display: inline-block;
-
 }
 .nav-container > a{
     margin-left: 16px;
@@ -29,9 +28,6 @@
 }
 .menu > a{
     display: none;
-}
-.overflow-hidden{
-    overflow: hidden;
 }
 @media screen and (max-width: 550px) {
     .nav-container{

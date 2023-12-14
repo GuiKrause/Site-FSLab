@@ -7,6 +7,9 @@
   font-weight: 400;
   text-decoration: none;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 .container{
   max-width: 1440px;
   height: auto;

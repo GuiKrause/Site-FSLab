@@ -1,4 +1,4 @@
-import Navbar from "./pages/Navbar/index"
+import Navbar from "./components/Navbar/index"
 import Hero from "./pages/Hero/index"
 import Projects from "./pages/Projects/index"
 import About from "./pages/About/index"
@@ -7,6 +7,10 @@ import FAQ from "./pages/FAQ/index"
 import Contact from "./pages/Contact/index"
 import Footer from "./pages/Footer/index"
 import { BrowserRouter as Router } from "react-router-dom";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import "./index.css"
+library.add(faBars, faXmark)
 
 function App() {
   return (

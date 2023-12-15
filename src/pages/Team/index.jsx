@@ -1,3 +1,5 @@
+import "./team.css"
+
 const Equipe = () => {
     return (
         <div className="team" id="team">

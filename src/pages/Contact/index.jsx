@@ -1,3 +1,5 @@
+import "./contact.css"
+
 const FaleConosco = () => {
     return (
         <div className="contact" id="contact">

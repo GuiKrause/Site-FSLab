@@ -1,0 +1,71 @@
+.team{
+height: auto;
+width: 100%;
+background-color: #F3F3F3;
+font-size: 1.6rem;
+}
+.equipe-title{
+font-size: 2.4rem;
+border-bottom: 2px solid #010101;
+display: inline-block;
+}
+.dev-professors{
+display: flex;
+justify-content: center;
+gap: 2rem;
+padding-top: 3rem;
+flex-wrap: wrap;
+}
+.dev-layout{
+width: fit-content;
+background-color: #EEECEC;
+display: flex;
+flex-direction: row;
+gap: 1.5rem;
+padding: 2rem;
+border-radius: 1rem;
+}
+.dev-description{
+align-self: center;
+text-align: end;
+}
+.dev-name{
+margin-bottom: 1rem;
+}
+.dev-role{
+font-weight: 200;
+}
+.dev{
+height: 12.8rem;
+width: 12.8rem;
+background-color: gray;
+border-radius: 50%;
+}
+.alumns-group{
+padding-top: 50px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+max-width: 125.0rem;
+margin: auto;
+gap: 1rem;
+}
+.alumns{
+width: 8.5rem;
+height: 8.5rem;
+background-color: gray;
+border-radius: 50%;
+}
+
+@media (max-width: 810px) {
+    .dev-professors{
+        flex-wrap: wrap;
+    }
+    .dev-layout{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dev-description{
+        text-align: center;
+    }
+}

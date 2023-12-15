@@ -1,7 +1,7 @@
 .navbar{
-    margin-left: 20px;
-    padding: 26px;
-    font-size: 0.8rem;
+    margin-left: 2.0rem;
+    padding: 2.6rem;
+    font-size: 1.6rem;
     margin: auto;
     width: 100%;
     background-color: #373736;
@@ -14,7 +14,7 @@
     display: inline-block;
 }
 .nav-container > a{
-    margin-left: 16px;
+    margin-left: 1.6rem;
     color: #f1f1f1;
 }
 .show{
@@ -34,7 +34,7 @@
         display: none;
     }
     .bars{
-        font-size: 1rem;
+        font-size: 1.6rem;
         color: white;
         cursor: pointer;
         position: relative;
@@ -53,11 +53,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 1rem;
     }
     .menu > a{
         display: flex;
-        margin-bottom: 20px;
+        margin-bottom: 2.0rem;
         color: #f1f1f1;
     }
 

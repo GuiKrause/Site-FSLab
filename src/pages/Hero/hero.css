@@ -1,4 +1,25 @@
 .hero{
     position: relative;
     z-index: 1;
+    height: 512px;
+    width: 100%;
+    background-image: url('/src/assets/images/pexels-christina-morillo-1181244.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-shadow{
+    background-color: #010101;
+    min-width: 100%;
+    min-height: 512px;
+    opacity: 0.6;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+}
+.logo-fslab{
+    z-index: 2;
 }

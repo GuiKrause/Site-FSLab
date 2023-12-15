@@ -1,3 +1,5 @@
+import "./faq.css"
+
 const FAQ = () => {
     return (
         <div className="faq" id="faq">

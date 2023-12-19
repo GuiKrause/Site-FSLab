@@ -34,13 +34,6 @@ const Equipe = () => {
                             <p className="dev-role">Cordenador Geral</p>
                         </div>
                     </div>
-                    <div className="dev-layout">
-                        <div className="dev"></div>
-                        <div className="dev-description">
-                            <p className="dev-name">Aluno Fulano de Tal</p>
-                            <p className="dev-role">Cordenador Geral</p>
-                        </div>
-                    </div>
                 </div>
                 <div className="alumns-group">
                     <div className="alumns"></div>

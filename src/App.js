@@ -9,6 +9,7 @@ import Footer from "./pages/Footer/index"
 import { BrowserRouter as Router } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+
 import "./index.css"
 library.add(faBars, faXmark)
 
